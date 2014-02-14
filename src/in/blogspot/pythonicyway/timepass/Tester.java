@@ -13,7 +13,7 @@ public class Tester {
 
   public static void main(String[] args) throws IOException {
     TunesDairy tunesDairy = new TunesDairy();
-    tunesDairy.downloadSongFromAlbum("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "yaariyan", "Sunny Sunny");
+    // tunesDairy.downloadSongFromAlbum("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "yaariyan", "Sunny Sunny");
 
     SlideShare slideShare = new SlideShare();
     slideShare.getAllSlidesInList("http://www.slideshare.net/arturoherrero/clean-code-8036914?v=default&b=&from_search=5", "C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\");

@@ -32,12 +32,16 @@ public class SlideShare {
           slideURList.add(content);
       }
     } catch (IOException e) {
-      e.printStackTrace();
+      System.out.println("Please Try again if you're seeing this error.\n" +
+              "Sometimes there are problems connecting to the site." +
+              "There can also be a problem with our destination path" +
+              "Try to download & change save path on the disk" +
+              "Hope it will solve your problem." + e.getMessage());
     }
     return slideURList;
   }
 
-  public void getAllSlidesInList(String url, String fileLocation) throws IOException {
+  public void getAllSlidesInList(String url, String fileLocation) {
     allSlides = listAllSlides(url);
     DownloadManager downloadManager = DownloadManager.getInstance();
     for (String slideURL : allSlides) {
