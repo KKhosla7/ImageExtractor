@@ -37,29 +37,29 @@ public class SlideShare {
     return slideURList;
   }
 
-  public void getAllSlidesInList(String url) throws IOException {
+  public void getAllSlidesInList(String url, String fileLocation) throws IOException {
     allSlides = listAllSlides(url);
     DownloadManager downloadManager = DownloadManager.getInstance();
     for (String slideURL : allSlides) {
-      if (!new File(fileLocationOnDisk(slideURL)).exists())
-        downloadManager.basicFileDownload(slideURL, fileLocationOnDisk(slideURL));
+      if (!new File(fileLocationOnDisk(fileLocation, slideURL)).exists())
+        downloadManager.basicFileDownload(slideURL, fileLocationOnDisk(fileLocation, slideURL));
     }
   }
 
-  private String fileLocationOnDisk(String slideURL) {
-    return "C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\" + fileName(slideURL);
+  private String fileLocationOnDisk(String fileLocation, String slideURL) {
+    return fileLocation + fileName(slideURL);
   }
 
   private String fileName(String slideURL) {
     return slideURL.substring(slideURL.lastIndexOf("/") + 1, slideURL.lastIndexOf("?"));
   }
 
-  public void bindToPDF(String pdfName) {
+  public void bindToPDF(String fileLocation, String pdfName) {
     List<String> imagesOnDisk = new ArrayList<>();
     for (String slideURL : allSlides) {
-      imagesOnDisk.add(fileLocationOnDisk(slideURL));
+      imagesOnDisk.add(fileLocationOnDisk(fileLocation, slideURL));
     }
-    BasicPDFWriter.getInstance().writeImages(imagesOnDisk, BasicPDFWriter.Orientation.LANDSCAPE, pdfName);
+    BasicPDFWriter.getInstance().writeImages(imagesOnDisk, BasicPDFWriter.Orientation.LANDSCAPE, fileLocation + pdfName);
   }
 }
 

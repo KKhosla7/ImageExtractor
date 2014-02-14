@@ -15,7 +15,8 @@ public class BasicPDFWriter {
 
   private static final BasicPDFWriter INSTANCE = new BasicPDFWriter();
 
-  private BasicPDFWriter() {}
+  private BasicPDFWriter() {
+  }
 
   public static BasicPDFWriter getInstance() {
     return INSTANCE;

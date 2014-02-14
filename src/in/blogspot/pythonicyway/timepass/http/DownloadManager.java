@@ -11,9 +11,10 @@ import java.util.Date;
  */
 public class DownloadManager {
 
-  private DownloadManager() {}
-
   private static final DownloadManager INSTANCE = new DownloadManager();
+
+  private DownloadManager() {
+  }
 
   public static DownloadManager getInstance() {
     return INSTANCE;
@@ -43,11 +44,12 @@ public class DownloadManager {
     connection.setDoOutput(true);
   }
 
-  public void basicFileDownload(String url, String destinationFileName) throws IOException {
-    HttpURLConnection connection = connectTo(url);
+  public void basicFileDownload(String url, String destinationFileName) {
+    HttpURLConnection connection;
     DataInputStream readFromSourceStream = null;
     DataOutputStream writeToDestinationStream = null;
     try {
+      connection = connectTo(url);
       readFromSourceStream = new DataInputStream(connection.getInputStream());
       writeToDestinationStream = new DataOutputStream(new FileOutputStream(destinationFileName));
       int bytesRead;
@@ -55,7 +57,11 @@ public class DownloadManager {
         writeToDestinationStream.write(bytesRead);
       connection.disconnect();
     } catch (IOException e) {
-      System.out.println("Read/Write Failed.\n" + e.getMessage());
+      System.out.println("Please Try again if you're seeing this error.\n" +
+              "Sometimes there are problems connecting to the site." +
+              "There can also be a problem with our destination path" +
+              "Try to download & change save path on the disk" +
+              "Hope it will solve your problem." + e.getMessage());
     } finally {
       safeClose(readFromSourceStream);
       safeClose(writeToDestinationStream);
@@ -67,15 +73,23 @@ public class DownloadManager {
     System.out.println("DateTime: " + serverDateFormat.format(new Date(connection.getDate())));
   }
 
-
-  public String downloadHTMLFromURL(String url) throws IOException {
+  public String downloadHTMLFromURL(String url) {
     StringBuilder buildHTMLContent = new StringBuilder();
-    HttpURLConnection connection = connectTo(url);
-    DataInputStream readFromSourceStream = new DataInputStream(connection.getInputStream());
-    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(readFromSourceStream));
-    String dataReadFromStream;
-    while ((dataReadFromStream = bufferedReader.readLine()) != null)
-     buildHTMLContent.append(dataReadFromStream);
+    HttpURLConnection connection;
+    try {
+      connection = connectTo(url);
+      DataInputStream readFromSourceStream = new DataInputStream(connection.getInputStream());
+      BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(readFromSourceStream));
+      String dataReadFromStream;
+      while ((dataReadFromStream = bufferedReader.readLine()) != null)
+        buildHTMLContent.append(dataReadFromStream);
+    } catch (IOException e) {
+      System.out.println("Please Try again if you're seeing this error.\n" +
+              "Sometimes there are problems connecting to the site." +
+              "There can also be a problem with our destination path" +
+              "Try to download & change save path on the disk" +
+              "Hope it will solve your problem." + e.getMessage());
+    }
     return buildHTMLContent.toString();
   }
 
