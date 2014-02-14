@@ -11,7 +11,8 @@ public class TunesDairy {
 
   public void downloadSongFromAlbum(String fileLocation, String albumName, String songName) {
     DownloadManager downloadManager = DownloadManager.getInstance();
-    String rawJSONData = downloadManager.downloadHTMLFromURL("http://www.tunesdiary.com/search?type=music&q=none&directsearch=true&albumid=" + albumName);
+    String url = "http://www.tunesdiary.com/search?type=music&q=none&directsearch=true&albumid=" + albumName;
+    String rawJSONData = downloadManager.downloadHTMLFromURL(url);
     TunesDairyJSONParser parsed = new TunesDairyJSONParser();
     Map<String, String> parsedJSONResultMap = parsed.parseJSONToMap(rawJSONData);
 

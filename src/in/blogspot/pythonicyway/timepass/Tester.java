@@ -13,10 +13,10 @@ public class Tester {
 
   public static void main(String[] args) throws IOException {
     TunesDairy tunesDairy = new TunesDairy();
-    tunesDairy.downloadSongFromAlbum("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "gunday_2014", "Tune Maari Entriyaan");
+    tunesDairy.downloadSongFromAlbum("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "yaariyan", "Sunny Sunny");
 
     SlideShare slideShare = new SlideShare();
-    slideShare.getAllSlidesInList("http://www.slideshare.net/juliuca.92/thanksgiving-presentation-837867?v=qf1&b=&from_search=2", "C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\");
+    slideShare.getAllSlidesInList("http://www.slideshare.net/arturoherrero/clean-code-8036914?v=default&b=&from_search=5", "C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\");
     slideShare.bindToPDF("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "thanksgiving-presentation.pdf");
   }
 
