@@ -12,12 +12,14 @@ public class Tester {
 
 
   public static void main(String[] args) throws IOException {
+    String fileLocation = "C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\";
+
     TunesDairy tunesDairy = new TunesDairy();
-    // tunesDairy.downloadSongFromAlbum("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "yaariyan", "Sunny Sunny");
+    tunesDairy.downloadSongFromAlbum(fileLocation, "yaariyan", "Sunny Sunny");
 
     SlideShare slideShare = new SlideShare();
-    slideShare.getAllSlidesInList("http://www.slideshare.net/arturoherrero/clean-code-8036914?v=default&b=&from_search=5", "C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\");
-    slideShare.bindToPDF("C:\\Users\\karan.khosla\\Desktop\\Slides\\test\\", "thanksgiving-presentation.pdf");
+    slideShare.getAllSlidesInList("http://www.slideshare.net/arturoherrero/clean-code-8036914?v=default&b=&from_search=5", fileLocation);
+    slideShare.bindToPDF(fileLocation, "thanksgiving-presentation.pdf");
   }
 
 

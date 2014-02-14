@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeecddff-65b7-4449-a238-c6840faf8a2b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" afterPath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ImageExtractor.iws" />
@@ -69,8 +70,10 @@
       <file leaf-file-name="Tester.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="63" selection-start="107" selection-end="107" vertical-scroll-proportion="0.04101327" vertical-offset="0" max-vertical-offset="829">
-              <folding />
+            <state line="20" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.41013268" vertical-offset="0" max-vertical-offset="829">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/tunesdairy/TunesDairyJSONParser.java" />
         <option value="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/http/DownloadManager.java" />
         <option value="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/tunesdairy/TunesDairy.java" />
-        <option value="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" />
         <option value="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java" />
+        <option value="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" />
       </list>
     </option>
   </component>
@@ -726,7 +729,7 @@
       <workItem from="1392268246569" duration="16165000" />
       <workItem from="1392285391057" duration="258000" />
       <workItem from="1392355117957" duration="2164000" />
-      <workItem from="1392357399683" duration="14748000" />
+      <workItem from="1392357399683" duration="15804000" />
     </task>
     <task id="LOCAL-00001" summary="Crucial Update.">
       <created>1392367578647</created>
@@ -764,11 +767,15 @@
       <created>1392372358185</created>
       <updated>1392372358185</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="almost final.. :)&#10;">
+      <created>1392372749418</created>
+      <updated>1392372749418</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58545000" />
+    <option name="totallyTimeSpent" value="59601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -1013,24 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/BasicPDFWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="750" selection-end="750" vertical-scroll-proportion="-0.27682403" vertical-offset="588" max-vertical-offset="1054">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/tunesdairy/TunesDairy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.17439294" vertical-offset="295" max-vertical-offset="748">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/http/DownloadManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="67" selection-start="3302" selection-end="3648" vertical-scroll-proportion="0.0" vertical-offset="1247" max-vertical-offset="1802">
@@ -1042,7 +1031,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.93818986" vertical-offset="765" max-vertical-offset="1462">
+        <state line="12" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.24607961" vertical-offset="0" max-vertical-offset="1462">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/BasicPDFWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="750" selection-end="750" vertical-scroll-proportion="0.29334918" vertical-offset="212" max-vertical-offset="1054">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/tunesdairy/TunesDairy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.45114595" vertical-offset="0" max-vertical-offset="829">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1051,8 +1058,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="63" selection-start="107" selection-end="107" vertical-scroll-proportion="0.04101327" vertical-offset="0" max-vertical-offset="829">
-          <folding />
+        <state line="20" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.41013268" vertical-offset="0" max-vertical-offset="829">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
