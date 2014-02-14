@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeecddff-65b7-4449-a238-c6840faf8a2b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" afterPath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ImageExtractor.iws" />
@@ -729,7 +728,7 @@
       <workItem from="1392268246569" duration="16165000" />
       <workItem from="1392285391057" duration="258000" />
       <workItem from="1392355117957" duration="2164000" />
-      <workItem from="1392357399683" duration="15804000" />
+      <workItem from="1392357399683" duration="15816000" />
     </task>
     <task id="LOCAL-00001" summary="Crucial Update.">
       <created>1392367578647</created>
@@ -771,11 +770,15 @@
       <created>1392372749418</created>
       <updated>1392372749418</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="almost final.. :)&#10;">
+      <created>1392374031266</created>
+      <updated>1392374031266</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59601000" />
+    <option name="totallyTimeSpent" value="59613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
