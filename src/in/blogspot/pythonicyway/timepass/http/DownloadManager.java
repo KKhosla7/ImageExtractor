@@ -27,6 +27,7 @@ public class DownloadManager {
     final HttpURLConnection connection = getConnection(newURL);
     beforeConnectionEnableBasicHTTPProperties(connection);
     connection.connect();
+    printServerTime(connection);
     return connection;
   }
 
@@ -44,7 +45,6 @@ public class DownloadManager {
 
   public void basicFileDownload(String url, String destinationFileName) throws IOException {
     HttpURLConnection connection = connectTo(url);
-    printServerTime(connection);
     DataInputStream readFromSourceStream = null;
     DataOutputStream writeToDestinationStream = null;
     try {
@@ -71,7 +71,6 @@ public class DownloadManager {
   public String downloadHTMLFromURL(String url) throws IOException {
     StringBuilder buildHTMLContent = new StringBuilder();
     HttpURLConnection connection = connectTo(url);
-    printServerTime(connection);
     DataInputStream readFromSourceStream = new DataInputStream(connection.getInputStream());
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(readFromSourceStream));
     String dataReadFromStream;
