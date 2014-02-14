@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeecddff-65b7-4449-a238-c6840faf8a2b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java" afterPath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" afterPath="$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ImageExtractor.iws" />
@@ -68,21 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tester.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Tester.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="510">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SlideShare.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="66" selection-start="1507" selection-end="1507" vertical-scroll-proportion="-0.27593818" vertical-offset="856" max-vertical-offset="1462">
+            <state line="23" column="1" selection-start="830" selection-end="830" vertical-scroll-proportion="0.73730683" vertical-offset="57" max-vertical-offset="510">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,28 +192,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="timepass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageExtractor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageExtractor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slideshare" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -763,7 +728,7 @@
       <workItem from="1392268246569" duration="16165000" />
       <workItem from="1392285391057" duration="258000" />
       <workItem from="1392355117957" duration="2164000" />
-      <workItem from="1392357399683" duration="14329000" />
+      <workItem from="1392357399683" duration="14357000" />
     </task>
     <task id="LOCAL-00001" summary="Crucial Update.">
       <created>1392367578647</created>
@@ -793,11 +758,15 @@
       <created>1392372162103</created>
       <updated>1392372162103</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="almost final.. :)&#10;">
+      <created>1392372330836</created>
+      <updated>1392372330836</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58126000" />
+    <option name="totallyTimeSpent" value="58154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -1069,18 +1038,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="510">
+        <state line="70" column="0" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.93818986" vertical-offset="765" max-vertical-offset="1462">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/slideshare/SlideShare.java">
+    <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="66" selection-start="1507" selection-end="1507" vertical-scroll-proportion="-0.27593818" vertical-offset="856" max-vertical-offset="1462">
+        <state line="23" column="1" selection-start="830" selection-end="830" vertical-scroll-proportion="0.73730683" vertical-offset="57" max-vertical-offset="510">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
