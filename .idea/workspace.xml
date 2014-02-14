@@ -69,10 +69,8 @@
       <file leaf-file-name="Tester.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="1" selection-start="830" selection-end="830" vertical-scroll-proportion="0.73730683" vertical-offset="57" max-vertical-offset="510">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="2" column="63" selection-start="107" selection-end="107" vertical-scroll-proportion="0.04101327" vertical-offset="0" max-vertical-offset="829">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -728,7 +726,7 @@
       <workItem from="1392268246569" duration="16165000" />
       <workItem from="1392285391057" duration="258000" />
       <workItem from="1392355117957" duration="2164000" />
-      <workItem from="1392357399683" duration="14357000" />
+      <workItem from="1392357399683" duration="14748000" />
     </task>
     <task id="LOCAL-00001" summary="Crucial Update.">
       <created>1392367578647</created>
@@ -762,11 +760,15 @@
       <created>1392372330836</created>
       <updated>1392372330836</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="almost final.. :)&#10;">
+      <created>1392372358185</created>
+      <updated>1392372358185</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58154000" />
+    <option name="totallyTimeSpent" value="58545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -784,7 +786,7 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43317974" sideWeight="0.64943457" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43317974" sideWeight="0.64943457" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1049,10 +1051,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/blogspot/pythonicyway/timepass/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="830" selection-end="830" vertical-scroll-proportion="0.73730683" vertical-offset="57" max-vertical-offset="510">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="63" selection-start="107" selection-end="107" vertical-scroll-proportion="0.04101327" vertical-offset="0" max-vertical-offset="829">
+          <folding />
         </state>
       </provider>
     </entry>
