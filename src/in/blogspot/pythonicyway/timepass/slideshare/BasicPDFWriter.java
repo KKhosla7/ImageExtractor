@@ -1,4 +1,4 @@
-package http;
+package in.blogspot.pythonicyway.timepass.slideshare;
 
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfWriter;
@@ -30,7 +30,8 @@ public class BasicPDFWriter {
       Image diskImage;
       for (String localDiskImagePath : localDiskImagePathList) {
         diskImage = Image.getInstance(localDiskImagePath);
-        diskImage.scalePercent(70f);
+        diskImage.setAbsolutePosition(0, 0);
+        diskImage.scaleToFit(PageSize.A4.rotate().getWidth(), PageSize.A4.rotate().getRight());
         pdfDocument.add(diskImage);
         pdfDocument.newPage();
       }

@@ -1,4 +1,4 @@
-package http;
+package in.blogspot.pythonicyway.timepass.tunesdairy;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
@@ -36,11 +36,5 @@ public class TunesDairyJSONParser {
       System.out.println("Error Parsing JSON Data.\n" + e.getMessage());
     }
     return songsMap;
-  }
-
-  public void printJSONParsedPData(Map<String, String> parsedJSONData) {
-    for (Map.Entry<String, String> parsedJSONResult : parsedJSONData.entrySet()) {
-      System.out.println(parsedJSONResult.getKey() + "  -------  " + parsedJSONResult.getValue());
-    }
   }
 }

@@ -1,4 +1,6 @@
-package http;
+package in.blogspot.pythonicyway.timepass.tunesdairy;
+
+import in.blogspot.pythonicyway.timepass.http.DownloadManager;
 
 import java.io.IOException;
 import java.util.Map;
@@ -7,10 +9,6 @@ import java.util.Map;
  * Created by karan.khosla
  */
 public class TunesDairy {
-
-  public void downloadAlbum(String albumName) {
-    downloadSongFromAlbum(albumName, "");
-  }
 
   public void downloadSongFromAlbum(String albumName, String songName) {
     try {

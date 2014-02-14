@@ -1,4 +1,4 @@
-package http;
+package in.blogspot.pythonicyway.timepass.http;
 
 import java.io.*;
 import java.net.HttpURLConnection;
